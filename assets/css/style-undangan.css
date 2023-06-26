@@ -1,0 +1,9 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.modal-content {
+    background-image: url(../img/bg-undangan.jpg);
+    background-size: cover;
+    background-position: bottom left;
+}

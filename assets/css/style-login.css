@@ -1,0 +1,49 @@
+body {
+    background: url('../img/bg-image.png') no-repeat center center fixed;
+    background-size: cover;
+    background-position: left;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-form {
+    max-width: 500px;
+    width: 100%;
+    background: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+}
+
+.login-logo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.login-logo img {
+    max-width: 200px;
+}
+
+.login-button {
+    width: 100%;
+}
+
+.register-button {
+    width: 100%;
+}
+
+a span i {
+    padding-right: 20px;
+}
+
+.login-form button span i {
+    margin-right: 20px;
+}
